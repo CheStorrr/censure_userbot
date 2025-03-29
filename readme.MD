@@ -18,7 +18,6 @@ This guide will walk you through installing and running the Pyrogram-based censo
 
     Pyrogram is the Telegram client library that this userbot relies on. Use pip to install it:
 
-    bash```
     pip install pyrogram
     ```
 
