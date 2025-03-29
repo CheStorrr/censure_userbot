@@ -18,23 +18,24 @@ This guide will walk you through installing and running the Pyrogram-based censo
 
     Pyrogram is the Telegram client library that this userbot relies on. Use pip to install it:
 
-    ```bash
-    pip install pyrogram```
+    bash```
+    pip install pyrogram
+    ```
 
     If you encounter issues with this command, make sure you have pip installed correctly. You might need to use pip3 instead of pip depending on your system configuration.
 
-2. Clone the Repository:
+2. **Clone the Repository**:
 
     Clone this repository to your local machine using Git:
-    ```bash
-    git clone git@github.com:CheStorrr/censure_userbot.git && cd censure_userbot```
-
+    bash```
+    git clone git@github.com:CheStorrr/censure_userbot.git && cd censure_userbot
+    ```
  
-3. Configure Environment Variables (Important):
+3. **Configure Environment Variables** (Important):
 
   This userbot requires you to set environment variables for your Telegram API credentials and possibly other configuration options. The most common method is to create a .env file in the root directory of the project:
 
-  •  Create .env File:
+  •  **Create .env File**:
 
     Create a file named .env in the same directory as your userbot.py (or whatever your main file is named).
 
@@ -51,10 +52,11 @@ This guide will walk you through installing and running the Pyrogram-based censo
     If you are loading the environment variables from a .env file you must install the python-dotenv package:
 
     ```bash 
-    pip install python-dotenv```
+    pip install python-dotenv
+    ```
 
 
-```
+
 
 4. Run the Userbot:
 
